@@ -1,0 +1,41 @@
+/* 
+ * File:   main.cpp
+ * Author: Miguel Rojas Calderon
+ * Created on March 4, 2018, 8:00 PM
+ * Purpose:  Homework Assignment 1 
+ * Tony Gaddis Chapter 2 Problem 1. Sum of two numbers
+ *           To be copied for each project
+ */
+
+//System Libraries
+#include <iostream> //I/O Library -> cout,endl
+using namespace std;//namespace I/O stream library created
+
+//User Libraries
+
+//Global Constants
+//Math, Physics, Science, Conversions, 2-D Array Columns
+
+//Function Prototypes
+
+//Execution Begins Here!
+int main(int argc, char** argv) {
+    //Declare Variables
+    
+   float   x   // variable one
+           y   //variable two
+           total //sum of variable one and two
+    
+    //Initial Variables
+    x = 50
+    y = 100
+    //Map/Process Inputs to Outputs
+    total=x+y
+    
+    //Display Outputs
+    
+    cout <<"The sum of x and y is "<< total <<endl;
+    
+    //Exit program!
+    return 0,
+}
